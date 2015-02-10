@@ -29,12 +29,19 @@
 	font-size: 2rem;
 	color: #273b40;
 }
+.top-nav .redo-icon {
+	height: 2.5rem;
+	float: right;
+	margin-top: -0.6rem;
+	margin-right: -8rem;
+}
 .top-nav .nav-icon {
 	height: 2.5rem;
 	float: left;
 	margin-top: -0.6rem;
 	margin-left: -8rem;
 }
+
 .directions {
 	margin-top: 12rem;
 }
