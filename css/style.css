@@ -129,4 +129,7 @@ and (max-device-width : 568px) {
 		height: 3rem;
 		font-size: 2rem;
 	}
+	body {
+		overflow-x: hidden;
+	}
 }
