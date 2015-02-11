@@ -60,6 +60,20 @@
     padding: 0 0.5rem;
     width: 35rem;
 }
+.strike {
+	background-color: #509599;
+	text-decoration: line-through;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+    display: table;
+    font-size: 1rem;
+    height: 1.9rem;
+    line-height: 2rem;
+    margin: 1rem auto;
+    padding: 0 0.5rem;
+    width: 35rem;
+}
 
 .input-area .list-item-active {
 	background-color: #767F7A;
@@ -73,6 +87,9 @@
     margin: 1rem auto;
     padding: 0 0.5rem;
     width: 35rem;
+}
+#list {
+	list-style-type: none;
 }
 .delete{
 	cursor: pointer;
@@ -90,3 +107,20 @@ height: 22px;
 width: 22px;
 background: url('../images/check.svg');
 }
+button {
+	height: 24px;
+	width: 24px;
+	background: none;
+	font-size: 18px;
+	border: 2px solid;
+	border-radius: 5px;
+	display: table;
+	margin: 0 auto;
+}
+
+.list-item-active:hover, .strike:hover, .redo-icon:hover, #add:hover {
+	cursor: pointer;
+}
+
+
+
