@@ -121,6 +121,13 @@ button {
 .list-item-active:hover, .strike:hover, .redo-icon:hover, #add:hover {
 	cursor: pointer;
 }
+/* Media queries for responsiveness*/
+@media only screen and (max-width: 600px) {
+	.list-item-active, .strike, #add-items {
+		height: 3rem;
+		font-size:2rem;
+	}
+}
 
 
 
