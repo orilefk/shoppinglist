@@ -120,6 +120,16 @@ button {
 
 .list-item-active:hover, .strike:hover, .redo-icon:hover, #add:hover {
 	cursor: pointer;
+
+}
+.copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 2rem;
 }
 /* Media queries for responsiveness*/
 @media only screen 

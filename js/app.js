@@ -24,7 +24,12 @@ $(document).ready(function() {
 			alert('Please enter text to add an item to the list');
 		} else {
 			$('<li class="list-item-active"></li>').appendTo('#list').html('<div class="delete"></div><span>' + txtval + '</span><div class="check"></div>');
-
+			
+			/* Attempt at animation, need to fix
+			$('.list-item-active').animate({ opacity: "1" },{ queue: true, duration: 'slow' });
+			$('.list-item-active').animate({ marginTop: "0px" },{ queue: false, duration: 'slow' });
+			*/
+			
 			document.getElementById('add-items').value = '';
 		};
 	});
