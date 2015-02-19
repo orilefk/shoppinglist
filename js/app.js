@@ -2,9 +2,9 @@ $(document).ready(function() {
 	$("#list").empty();
 	submissions = 0;
 // allows users to press enter to add
-	$('#add-items').keyup(function(event) {
-		if(event.keyCode == 13) {
-			event.preventDefault();
+	$('#add-items').keyup(function(e) {
+		if(e.keyCode == 13) {
+			e.preventDefault();
 			$('#add').click();
 		};
 	});
@@ -15,10 +15,10 @@ $(document).ready(function() {
 	});
 
 // allows users to add items to list
-	$('#add').click(function(){
+	$('#add').click(function(e){
 		var txtbox = document.getElementById('add-items');
 		var txtval = txtbox.value;
-		event.preventDefault();
+		e.preventDefault();
 
 		if(!$.trim($('#add-items').val())) {
 			alert('Please enter text to add an item to the list');
